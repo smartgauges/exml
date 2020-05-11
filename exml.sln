@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hack", "hack\hack.vcxproj", "{2150D252-AA17-45C2-8981-A6DCF7055CA6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exml", "exml\exml.vcxproj", "{95BC2C38-1FBE-4AF1-967E-BC133250C4D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{E956CB21-8B8B-4C10-BE6A-C560AAA097B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2150D252-AA17-45C2-8981-A6DCF7055CA6}.Release|x64.ActiveCfg = Release|x64
+		{2150D252-AA17-45C2-8981-A6DCF7055CA6}.Release|x64.Build.0 = Release|x64
+		{2150D252-AA17-45C2-8981-A6DCF7055CA6}.Release|x86.ActiveCfg = Release|Win32
+		{2150D252-AA17-45C2-8981-A6DCF7055CA6}.Release|x86.Build.0 = Release|Win32
+		{95BC2C38-1FBE-4AF1-967E-BC133250C4D4}.Release|x64.ActiveCfg = Release|x64
+		{95BC2C38-1FBE-4AF1-967E-BC133250C4D4}.Release|x64.Build.0 = Release|x64
+		{95BC2C38-1FBE-4AF1-967E-BC133250C4D4}.Release|x86.ActiveCfg = Release|Win32
+		{95BC2C38-1FBE-4AF1-967E-BC133250C4D4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2150D252-AA17-45C2-8981-A6DCF7055CA6} = {E956CB21-8B8B-4C10-BE6A-C560AAA097B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7520776C-808A-4B77-B83A-FD5E08BA5803}
+	EndGlobalSection
+EndGlobal
